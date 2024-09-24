@@ -22,6 +22,7 @@ Welcome to **Yet Another Quiz** (YAQ), the first project in the **Learnoia** rep
 ## Getting Started
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/yourusername/learnoia.git
    cd learnoia/yaq
@@ -32,12 +33,13 @@ Welcome to **Yet Another Quiz** (YAQ), the first project in the **Learnoia** rep
 
 3. **Explore the Code:**
    Navigate through the files to understand the structure of the project. The main files include:
+
    - `index.html`: The HTML structure of YAQ.
    - `styles.css`: Styles for the quiz application.
    - `main.js`: JavaScript code that powers the quiz functionality.
 
 4. **Descriptive Guide and Principles**
-    Navigate to (this)[./PRINCIPLES.md] file for more detailed guidance.
+   Navigate to [this](./PRINCIPLES.md) file for more detailed guidance.
 
 ## Features
 
