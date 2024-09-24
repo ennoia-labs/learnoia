@@ -1,0 +1,92 @@
+[
+    {
+        "rank": 1,
+        "name": "Ram Prasad",
+        "username": "ram_prasad",
+        "total_score_all_time": 2000,
+        "total_score_month": 300,
+        "total_score_week": 100,
+        "last_active": "2024-09-24 14:35"
+    },
+    {
+        "rank": 2,
+        "name": "Sita Devi",
+        "username": "sita_devi",
+        "total_score_all_time": 1900,
+        "total_score_month": 280,
+        "total_score_week": 90,
+        "last_active": "2024-09-23 13:20"
+    },
+    {
+        "rank": 3,
+        "name": "Bikram Thapa",
+        "username": "bikram_thapa",
+        "total_score_all_time": 1800,
+        "total_score_month": 250,
+        "total_score_week": 80,
+        "last_active": "2024-09-24 17:50"
+    },
+    {
+        "rank": 4,
+        "name": "Anjali Joshi",
+        "username": "anjali_joshi",
+        "total_score_all_time": 1700,
+        "total_score_month": 240,
+        "total_score_week": 70,
+        "last_active": "2024-09-24 10:05"
+    },
+    {
+        "rank": 5,
+        "name": "Deepak Karki",
+        "username": "deepak_karki",
+        "total_score_all_time": 1600,
+        "total_score_month": 220,
+        "total_score_week": 60,
+        "last_active": "2024-09-23 19:15"
+    },
+    {
+        "rank": 6,
+        "name": "Pratik Sharma",
+        "username": "pratik_sharma",
+        "total_score_all_time": 1500,
+        "total_score_month": 210,
+        "total_score_week": 50,
+        "last_active": "2024-09-24 12:00"
+    },
+    {
+        "rank": 7,
+        "name": "Nisha Rani",
+        "username": "nisha_rani",
+        "total_score_all_time": 1400,
+        "total_score_month": 200,
+        "total_score_week": 40,
+        "last_active": "2024-09-22 18:30"
+    },
+    {
+        "rank": 8,
+        "name": "Rajesh Bhatt",
+        "username": "rajesh_bhatt",
+        "total_score_all_time": 1300,
+        "total_score_month": 190,
+        "total_score_week": 30,
+        "last_active": "2024-09-23 11:45"
+    },
+    {
+        "rank": 9,
+        "name": "Pooja Magar",
+        "username": "pooja_magar",
+        "total_score_all_time": 1200,
+        "total_score_month": 180,
+        "total_score_week": 20,
+        "last_active": "2024-09-21 09:30"
+    },
+    {
+        "rank": 10,
+        "name": "Suresh Ghimire",
+        "username": "suresh_ghimire",
+        "total_score_all_time": 1100,
+        "total_score_month": 170,
+        "total_score_week": 10,
+        "last_active": "2024-09-24 08:15"
+    }
+]
