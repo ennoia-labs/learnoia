@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #6a5ae0;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.back-arrow button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 7px 40px 0 0;
+}
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+.toggle {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.toggle-btn {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  background: none;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.toggle-btn.active {
+  background-color: #ffffff;
+  color: #7c5dfa;
+}
+.notification {
+  background-color: #ffa500;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.notification h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.podium {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.podium-place {
+  text-align: center;
+  flex: 1;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.podium-place:nth-child(2) .avatar {
+  width: 80px;
+  height: 80px;
+}
+.podium-bar {
+  opacity: 0;
+  transform: translateY(-100px);
+  animation: slideup 0.5s forwards;
+}
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.podium-place:nth-child(1) .podium-bar {
+  height: 120px;
+  background-image: url("../svg/rank2.svg");
+}
+.podium-place:nth-child(2) .podium-bar {
+  height: 160px;
+  background-image: url("../svg/rank1.svg");
+}
+.podium-place:nth-child(3) .podium-bar {
+  height: 80px;
+  background-image: url("../svg/rank3.svg");
+}
+.player-name {
+  font-size: 14px;
+  margin: 5px 0;
+}
+.player-score {
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+}
+.player-list {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  color: #333;
+}
+.player-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.player-rank {
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.player-info {
+  display: flex;
+  align-items: center;
+}
+.player-list .avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.player-list .player-name {
+  font-weight: bold;
+}
+.player-list .player-score {
+  margin-left: auto;
+  background: none;
+  color: #666;
+}
