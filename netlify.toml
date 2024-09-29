@@ -1,8 +1,8 @@
 [build]
-  publish = "projects/main/src"
+  publish = ".next"
   command = "npm run build"
 
 [[redirects]]
-  from = "/subproject1/*"
-  to = "/projects/subproject1/src/:splat"
+  from = "/yaq/*"
+  to = "/src/projects/yaq/src/:splat"
   status = 200
