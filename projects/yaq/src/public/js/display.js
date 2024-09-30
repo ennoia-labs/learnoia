@@ -1,7 +1,7 @@
 export function displayPodium(podiumContainer, podiumData) {
   podiumContainer.innerHTML = '';
 
-  podiumData.forEach((player, index) => {
+  podiumData.forEach((player) => {
     const podiumPlace = document.createElement('div');
     podiumPlace.classList.add('.podium-place');
     podiumPlace.innerHTML = `
@@ -11,19 +11,13 @@ export function displayPodium(podiumContainer, podiumData) {
           <div class="podium-bar"></div>
   `;
 
-    if (index === 0) {
-      podiumPlace.classList.add('first-place');
-    } else if (index === 1) {
-      podiumPlace.classList.add('second-place');
-    } else if (index === 2) {
-      podiumPlace.classList.add('third-place');
-    }
+    podiumPlace.classList.add('podium-place', 'podium-bar');
 
     podiumContainer.appendChild(podiumPlace);
   });
 }
 
-export function displayPlayerList(playerLists, playerData, isFullList = false) {
+export function displayPlayerList(playerLists, playerData) {
   const viewAllLink = playerLists.querySelector('.view-all-text');
 
   playerLists.innerHTML = '';
@@ -44,7 +38,7 @@ export function displayPlayerList(playerLists, playerData, isFullList = false) {
                   <span class="player-score">${player.score} points</span>`;
     playerLists.appendChild(playerRow);
   });
-  if (!isFullList && viewAllLink) {
+  if (viewAllLink) {
     playerLists.appendChild(viewAllLink);
   }
   console.log('Leaderboard displayed');

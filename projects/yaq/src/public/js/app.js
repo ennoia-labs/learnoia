@@ -5,5 +5,5 @@ document.addEventListener('DOMContentLoaded', () => {
   const playerLists = document.querySelector('.player-list');
   const podiumContainer = document.querySelector('.podium');
 
-  initializeButtonEvents(toggleButtons, playerLists, podiumContainer, false);
+  initializeButtonEvents(toggleButtons, playerLists, podiumContainer);
 });
