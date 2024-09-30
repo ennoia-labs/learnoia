@@ -7,16 +7,16 @@ export function filterLeaderboardData(leaderboardData, criteria) {
   let filteredData = [];
   if (criteria === 'all-time') {
     filteredData = leaderboardData
-      .sort((a, b) => b.total_score_all_time - a.total_score_all_time)
-      .map((player) => ({ ...player, score: player.total_score_all_time }));
+      .sort((a, b) => b.all_time_score - a.all_time_score)
+      .map((player) => ({ ...player, score: player.all_time_score }));
   } else if (criteria === 'monthly') {
     filteredData = leaderboardData
-      .sort((a, b) => b.total_score_month - a.total_score_month)
-      .map((player) => ({ ...player, score: player.total_score_month }));
+      .sort((a, b) => b.monthly_score - a.monthly_score)
+      .map((player) => ({ ...player, score: player.monthly_score }));
   } else if (criteria === 'weekly') {
     filteredData = leaderboardData
-      .sort((a, b) => b.total_score_week - a.total_score_week)
-      .map((player) => ({ ...player, score: player.total_score_week }));
+      .sort((a, b) => b.weekly_score - a.weekly_score)
+      .map((player) => ({ ...player, score: player.weekly_score }));
   }
 
   return filteredData;

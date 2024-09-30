@@ -22,15 +22,15 @@ export function displayPlayerList(playerLists, playerData) {
 
   playerLists.innerHTML = '';
 
-  playerData.forEach((player) => {
+  playerData.forEach((player, index) => {
     const playerRow = document.createElement('div');
     playerRow.classList.add('player-item');
     playerRow.innerHTML = `
-      <span class="player-rank">${player.rank}</span>
+      <span class="player-rank">${index + 1}</span>
                   <div class="player-info">
                     <img
                       src="public/images/image.png"
-                      alt="${player.name}"
+                      alt="${player.name}"ß
                       class="avatar"
                     />
                     <span class="player-name">${player.name}</span>
