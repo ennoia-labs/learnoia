@@ -5,4 +5,5 @@
 [[redirects]]
   from = "/yaq/*"
   to = "/src/projects/yaq/src/:splat"
-  status = 200
+  status = 301
+  force=true
