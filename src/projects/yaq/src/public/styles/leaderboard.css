@@ -4,6 +4,8 @@ body {
   color: #ffffff;
   margin: 0;
   padding: 20px;
+  /* max-width: 375px;
+  max-height: 812px; */
 }
 .container {
   max-height: 812px;
