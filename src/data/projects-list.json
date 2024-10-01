@@ -3,6 +3,6 @@
     "title": "YAQ: Yet Another Quiz",
     "description": "An interactive trivia quiz application made by beginners with vanilla JavaScript.",
     "github": "https://github.com/ennoia-labs/learnoia/tree/main/projects/yaq",
-    "demo": "yaq"
+    "demo": "https://vyaq.netlify.app"
   }
 ]
