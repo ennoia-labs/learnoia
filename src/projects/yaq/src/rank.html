@@ -7,23 +7,25 @@
     <link rel="stylesheet" href="public/styles/leaderboard.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <span class="back-arrow">
-          <button>
-            <a href="leaderboard.html">
-              <img src="public/svg/backArrow.svg" alt="" />
-            </a>
-          </button>
-        </span>
-        <h1>Leaderboard</h1>
+    <div class="app">
+      <div class="container">
+        <div class="header">
+          <span class="back-arrow">
+            <button>
+              <a href="leaderboard.html">
+                <img src="public/svg/backArrow.svg" alt="" />
+              </a>
+            </button>
+          </span>
+          <h1>Leaderboard</h1>
+        </div>
+        <div class="toggle">
+          <button class="toggle-btn active">All Time</button>
+          <button class="toggle-btn">Monthly</button>
+          <button class="toggle-btn">Weekly</button>
+        </div>
+        <div class="all-player-list player-list"></div>
       </div>
-      <div class="toggle">
-        <button class="toggle-btn active">All Time</button>
-        <button class="toggle-btn">Monthly</button>
-        <button class="toggle-btn">Weekly</button>
-      </div>
-      <div class="all-player-list player-list"></div>
     </div>
     <script type="module" src="public/js/app.js"></script>
   </body>
