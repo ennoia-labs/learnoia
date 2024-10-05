@@ -47,3 +47,18 @@ export function initializeButtonEvents(
     });
   }
 }
+
+export function getGreeting() {
+  const currentHour = new Date().getHours();
+
+  if (currentHour < 12) {
+    return "GOOD MORNING";
+  } else if (currentHour < 18) {
+    return "GOOD AFTERNOON";
+  } else if (currentHour < 22) {
+    return "GOOD EVENING";
+  } else {
+    return "GOOD NIGHT";
+  }
+}
+document.getElementById("greeting").innerHTML = getGreeting();
